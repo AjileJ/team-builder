@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.teamMembers{
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.card-list {
+  border: 1px solid black;
+  text-align: center;
+}
+.role {
+  border-bottom: 1px solid red;
+  
+}
+
+

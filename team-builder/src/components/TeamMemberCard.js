@@ -7,7 +7,7 @@ const TeamMemberCard = props => {
         <div className ='card' key={card.id}>
           <p>{card.name}</p>
           <p>{card.email}</p>
-          <p>{card.role}</p>
+          <p className ='role'>{card.role}</p>
           </div>
       ))}
     </div>

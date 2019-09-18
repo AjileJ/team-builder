@@ -34,8 +34,8 @@ const addNewCard = card => {
   
   return(
   <div className = "App">
-  <h1>Team Members</h1>
-  <TeamMemberForm addNewCard={addNewCard}/>
+  <h1 className="teamMembers">Team Members</h1>
+  <TeamMemberForm className="teamForm" addNewCard={addNewCard}/>
   <TeamMemberCard cards={cards}/>
   </div>
   )
