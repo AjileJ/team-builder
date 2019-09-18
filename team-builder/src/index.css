@@ -37,11 +37,12 @@ form {
 
 .card {
   border: 3px solid gold;
-  margin-bottom: 20px;
-  width:50%;
+  margin: 20px;
+  width:30%;
   background: rgba(17, 15, 1, 0.678);
   color: rgba(0, 225, 255, 0.972);
-  
+  border-radius: 10px;
+
 }
 input{
   width: 200px;
@@ -80,8 +81,8 @@ label {
 }
 
 img {
-  height: 12vh;
-  width: 55%
+  height: 14vh;
+  width: 50%
 }
 
 
