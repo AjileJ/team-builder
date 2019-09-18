@@ -9,13 +9,9 @@ import TeamMemberForm from './components/TeamMemberForm';
 
 function App(){
   
-  const [cards, setCards]= useState([
-  {
-    name: '',
-    email:'',
-    role:''
-  }
-]);
+  
+const [people, setPeople]=useState([])
+
 
 const addNewCard = card => {
   const newCard = {
@@ -23,8 +19,10 @@ const addNewCard = card => {
     email: card.email,
     role: card.role
   };
-  setCards([...cards, newCard])
+  setPeople([...people, newCard])
 }
+
+
   
   
   
@@ -36,7 +34,7 @@ const addNewCard = card => {
   <div className = "App">
   <h1 className="teamMembers">Team Members</h1>
   <TeamMemberForm className="teamForm" addNewCard={addNewCard}/>
-  <TeamMemberCard cards={cards}/>
+  <TeamMemberCard people={people}/>
   </div>
   )
 }
